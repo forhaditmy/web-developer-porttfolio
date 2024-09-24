@@ -187,17 +187,41 @@ color: #757575;
 .resume-container hr {
     margin: 30px 30px;
 }
-.btn-pimary{
-
-}
 .download-cv{
     text-align: center;
     margin-top: 50px;
 
 }
+
+/* footer style */
+
 footer{
+    gap: 100px;
     display: flex;
     background:#fff8f3;
     margin-top: 100px;
     padding: 130px 200px;
 }
+.footer-column{
+  width: 50%;
+ 
+
+}
+.social-links a{
+margin-right: 25px;
+}
+
+.contact input[type="text"], .contact  input[type="email"], 
+textarea{
+    display: block;
+    
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+
+}
+
